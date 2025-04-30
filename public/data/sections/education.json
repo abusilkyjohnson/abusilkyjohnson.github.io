@@ -35,7 +35,7 @@
             "items": [
                 {
                     "icon": {
-                        "img": "public/images/pictures/mvillelogo.png",
+                        "img": "/images/pictures/mvillelogo.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -74,7 +74,7 @@
 
                 {
                     "icon": {
-                        "img": "public/images/pictures/fullsail_logo.png",
+                        "img": "/images/pictures/fullsail_logo.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -112,7 +112,7 @@
 
                 {
                     "icon": {
-                        "img": "public/images/pictures/fullsail_logo.png",
+                        "img": "/images/pictures/fullsail_logo.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },

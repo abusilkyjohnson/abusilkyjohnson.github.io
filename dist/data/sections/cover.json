@@ -256,7 +256,7 @@
 
                 {
                     "icon": {
-                        "img": "public/images/pictures/boxinggloveicon.png",
+                        "img": "/images/pictures/boxinggloveicon.png",
                         "fa": null,
                         "faColors": null
                     },
@@ -283,7 +283,7 @@
 
                 {
                     "icon": {
-                        "img": "public/images/pictures/cubebuild.png",
+                        "img": "/images/pictures/cubebuild.png",
                         "fa": null,
                         "faColors": null
                     },
@@ -310,7 +310,7 @@
 
                 {
                     "icon": {
-                        "img": "public/images/pictures/grayerrunning.png",
+                        "img": "/images/pictures/grayerrunning.png",
                         "fa": null,
                         "faColors": null
                     },

@@ -35,7 +35,7 @@
             "items": [
                 {
                     "icon": {
-                        "img": "public/images/pictures/bank-of-america-logo-png-symbol-0.png",
+                        "img": "/images/pictures/bank-of-america-logo-png-symbol-0.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -72,7 +72,7 @@
                 },
                 {
                     "icon": {
-                        "img": "public/images/pictures/regions-bank-logo-04.png",
+                        "img": "/images/pictures/regions-bank-logo-04.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -109,7 +109,7 @@
                 },
                 {
                     "icon": {
-                        "img": "public/images/pictures/fullsail_logo.png",
+                        "img": "/images/pictures/fullsail_logo.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },

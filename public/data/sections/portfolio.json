@@ -66,7 +66,7 @@
                 {
                     "categoryId": "utilities",
                     "icon": {
-                        "img": "public/images/pictures/female_age_icon.png",
+                        "img": "/images/pictures/female_age_icon.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -110,7 +110,7 @@
                 {
                     "categoryId": "apps",
                     "icon": {
-                        "img": "public/images/pictures/playingcard.png",
+                        "img": "/images/pictures/playingcard.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -120,14 +120,14 @@
                     ],
 
                     "media": {
-                        "youtubeVideo": "public/videos/video1623032928.mp4",
+                        "youtubeVideo": "/videos/video1623032928.mp4",
                         "screenshots": {
                             "aspectRatio": "9:16",
                             "images": [
-                                "public/images/pictures/Screenshot 2025-04-28 023553.png",
-                                "public/images/pictures/Screenshot 2025-04-28 023606.png",
-                                "public/images/pictures/Screenshot 2025-04-28 023619.png",
-                                "public/images/pictures/Screenshot 2025-04-28 023634.png"
+                                "/images/pictures/Screenshot 2025-04-28 023553.png",
+                                "/images/pictures/Screenshot 2025-04-28 023606.png",
+                                "/images/pictures/Screenshot 2025-04-28 023619.png",
+                                "/images/pictures/Screenshot 2025-04-28 023634.png"
                             ]
                         }
                     },
@@ -159,7 +159,7 @@
                 {
                     "categoryId": "apps",
                     "icon": {
-                        "img": "public/images/pictures/calculatoricon.png",
+                        "img": "/images/pictures/calculatoricon.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -204,7 +204,7 @@
                 {
                     "categoryId": "websites",
                     "icon": {
-                        "img": "public/images/pictures/circlehomeiconwhiteblue.png",
+                        "img": "/images/pictures/circlehomeiconwhiteblue.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -247,7 +247,7 @@
                 {
                     "categoryId": "utilities",
                     "icon": {
-                        "img": "public/images/pictures/winegradeicon.png",
+                        "img": "/images/pictures/winegradeicon.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -292,7 +292,7 @@
                 {
                     "categoryId": "utilities",
                     "icon": {
-                        "img": "public/images/pictures/bag_of_words_icon.png",
+                        "img": "/images/pictures/bag_of_words_icon.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
