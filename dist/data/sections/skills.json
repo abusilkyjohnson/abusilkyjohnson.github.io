@@ -62,32 +62,6 @@
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-database",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Database** management",
-                            "text": "I can handle your data effectively!"
-                        },
-                        "es": {
-                            "title": "Gestión de **bases de datos**",
-                            "text": "¡Puedo gestionar tus datos de manera eficaz!"
-                        },
-                        "fr": {
-                            "title": "Gestion de **bases de données**",
-                            "text": "Je peux gérer vos données efficacement !"
-                        },
-                        "ko": {
-                            "title": "**데이터베이스** 관리",
-                            "text": "데이터를 효과적으로 처리할 수 있습니다!"
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
                         "fa": "fa-solid fa-mobile-screen-button",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -119,7 +93,7 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "REST **APIs**",
+                            "title": "**AI** Integration",
                             "text": "I can build API services!"
                         },
                         "es": {
@@ -135,35 +109,8 @@
                             "text": "API 서비스를 구축할 수 있습니다!"
                         }
                     }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-lock",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Information **Security**",
-                            "text": "Security is my middle name!"
-                        },
-                        "es": {
-                            "title": "**Seguridad** de la información",
-                            "text": "¡La seguridad es mi segundo nombre!"
-                        },
-                        "fr": {
-                            "title": "**Sécurité** de l'information",
-                            "text": "La sécurité est mon deuxième prénom !"
-                        },
-                        "ko": {
-                            "title": "정보 **보안**",
-                            "text": "보안은 제 전문 분야입니다!"
-                        }
-                    }
                 }
             ]
-
         },
 
         {
@@ -181,13 +128,13 @@
                         "fa": "fa-brands fa-node-js",
                         "faColors": {"bg": "#339933", "fill": "#EEE"}
                     },
-                    "value": 95,
+                    "value": null,
                     "dates": {
-                        "start": "01/15/2019"
+                        "start": "04/15/2023"
                     },
                     "locales": {
                         "en": {
-                            "title": "Node.js",
+                            "title": "Python",
                             "info": null
                         }
                     }
@@ -198,13 +145,13 @@
                         "fa": "fa-brands fa-java",
                         "faColors": {"bg": "#007396", "fill": "#EEE"}
                     },
-                    "value": 90,
+                    "value": null,
                     "dates": {
-                        "start": "03/10/2019"
+                        "start": "03/10/2022"
                     },
                     "locales": {
                         "en": {
-                            "title": "Java 11+",
+                            "title": "Java",
                             "info": null
                         }
                     }
@@ -215,30 +162,13 @@
                         "fa": "fa-brands fa-python",
                         "faColors": {"bg": "#306998", "fill": "#EEE"}
                     },
-                    "value": 85,
+                    "value": null,
                     "dates": {
-                        "start": "06/20/2020"
+                        "start": "04/29/2023"
                     },
                     "locales": {
                         "en": {
-                            "title": "Python 3.x",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-gem",
-                        "faColors": {"bg": "#CC0000", "fill": "#EEE"}
-                    },
-                    "value": 80,
-                    "dates": {
-                        "start": "08/30/2020"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Ruby on Rails",
+                            "title": "Tensorflow(Keras)",
                             "info": null
                         }
                     }
@@ -249,64 +179,13 @@
                         "fa": "fa-solid fa-database",
                         "faColors": {"bg": "#4479A1", "fill": "#EEE"}
                     },
-                    "value": 90,
+                    "value": null,
                     "dates": {
-                        "start": "10/10/2020"
+                        "start": "05/10/2022"
                     },
                     "locales": {
                         "en": {
-                            "title": "MySQL",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-docker",
-                        "faColors": {"bg": "#2496ED", "fill": "#EEE"}
-                    },
-                    "value": 60,
-                    "dates": {
-                        "start": "04/15/2021"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Docker",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-php",
-                        "faColors": {"bg": "#FFD700", "fill": "#111"}
-                    },
-                    "value": 100,
-                    "dates": {
-                        "start": "09/01/2018"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "PHP 8.0+",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-life-ring",
-                        "faColors": {"bg": "#326CE5", "fill": "#EEE"}
-                    },
-                    "value": 80,
-                    "dates": {
-                        "start": "07/10/2021"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Kubernetes",
+                            "title": "SQLite",
                             "info": null
                         }
                     }
@@ -317,9 +196,9 @@
                         "fa": "fa-solid fa-server",
                         "faColors": {"bg": "#47A248", "fill": "#EEE"}
                     },
-                    "value": 50,
+                    "value": null,
                     "dates": {
-                        "start": "05/20/2024"
+                        "start": "04/20/2024"
                     },
                     "locales": {
                         "en": {
@@ -334,13 +213,47 @@
                         "fa": "fa-brands fa-git",
                         "faColors": {"bg": "#F05032", "fill": "#111"}
                     },
-                    "value": 95,
+                    "value": null,
                     "dates": {
-                        "start": "01/01/2018"
+                        "start": "04/28/2022"
                     },
                     "locales": {
                         "en": {
                             "title": "Git",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-git",
+                        "faColors": {"bg": "#F05032", "fill": "#111"}
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": "04/28/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "C++",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-git",
+                        "faColors": {"bg": "#F05032", "fill": "#111"}
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": "04/28/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "C#",
                             "info": null
                         }
                     }
@@ -363,9 +276,9 @@
                         "fa": "fa-brands fa-html5",
                         "faColors": {"bg": "#E34F26", "fill": "#EEE"}
                     },
-                    "value": 100,
+                    "value": null,
                     "dates": {
-                        "start": "09/01/2018"
+                        "start": "04/28/2024"
                     },
                     "locales": {
                         "en": {
@@ -380,13 +293,13 @@
                         "fa": "fa-brands fa-css3",
                         "faColors": {"bg": "#1572B6", "fill": "#EEE"}
                     },
-                    "value": 65,
+                    "value": null,
                     "dates": {
-                        "start": "01/15/2019"
+                        "start": "04/28/2024"
                     },
                     "locales": {
                         "en": {
-                            "title": "CSS3",
+                            "title": "CSS",
                             "info": null
                         }
                     }
@@ -397,13 +310,13 @@
                         "fa": "fa-brands fa-js",
                         "faColors": {"bg": "#F7DF1E", "fill": "#111"}
                     },
-                    "value": 90,
+                    "value": null,
                     "dates": {
-                        "start": "03/10/2020"
+                        "start": "03/10/2023"
                     },
                     "locales": {
                         "en": {
-                            "title": "JavaScript ES6+",
+                            "title": "XML",
                             "info": null
                         }
                     }
@@ -414,9 +327,9 @@
                         "fa": "fa-brands fa-react",
                         "faColors": {"bg": "#61DAFB", "fill": "#111"}
                     },
-                    "value": 95,
+                    "value": null,
                     "dates": {
-                        "start": "06/20/2020"
+                        "start": "04/28/2024"
                     },
                     "locales": {
                         "en": {
@@ -428,33 +341,16 @@
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-brands fa-vuejs",
-                        "faColors": {"bg": "#4FC08D", "fill": "#111"}
-                    },
-                    "value": 40,
-                    "dates": {
-                        "start": "08/30/2023"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Vue.js",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
                         "fa": "fa-brands fa-bootstrap",
                         "faColors": {"bg": "#7952B3", "fill": "#EEE"}
                     },
-                    "value": 90,
+                    "value": null,
                     "dates": {
-                        "start": "02/10/2021"
+                        "start": "04/28/2024"
                     },
                     "locales": {
                         "en": {
-                            "title": "Bootstrap",
+                            "title": "Electron",
                             "info": null
                         }
                     }
@@ -508,7 +404,7 @@
 
                 {
                     "icon": {
-                        "img": "images/flags/fr.png",
+                        "img": "public/images/pictures/nigerianflag.png",
                         "fa": null,
                         "faColors": { "bg": null, "fill": null }
                     },
@@ -516,8 +412,8 @@
                     "dates": { "start": null },
                     "locales": {
                         "en": {
-                            "title": "French",
-                            "info": "Fluent in both spoken and written French; confident in professional communication.",
+                            "title": "Hausa",
+                            "info": "Fluent in both spoken; confident in professional communication.",
                             "tags": ["Fluent"]
                         },
                         "es": {
@@ -534,70 +430,6 @@
                             "title": "프랑스어",
                             "info": "구어 및 문어에 유창하며, 전문적인 소통에 자신감이 있음.",
                             "tags": ["유창"]
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": "images/flags/vn.png",
-                        "fa": null,
-                        "faColors": { "bg": null, "fill": null }
-                    },
-                    "value": null,
-                    "dates": { "start": null },
-                    "locales": {
-                        "en": {
-                            "title": "Vietnamese",
-                            "info": "Intermediate proficiency in Vietnamese language; can hold conversations and understand written text.",
-                            "tags": ["Intermediate"]
-                        },
-                        "es": {
-                            "title": "Vietnamita",
-                            "info": "Competencia intermedia en el idioma vietnamita; puede mantener conversaciones y entender textos escritos.",
-                            "tags": ["Intermedio"]
-                        },
-                        "fr": {
-                            "title": "Vietnamien",
-                            "info": "Compétence intermédiaire en vietnamien; peut tenir des conversations et comprendre des textes écrits.",
-                            "tags": ["Intermédiaire"]
-                        },
-                        "ko": {
-                            "title": "베트남어",
-                            "info": "중간 수준의 베트남어 실력; 대화 가능 및 글을 이해할 수 있음.",
-                            "tags": ["중급"]
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": "images/flags/ko.png",
-                        "fa": null,
-                        "faColors": { "bg": null, "fill": null }
-                    },
-                    "value": null,
-                    "dates": { "start": null },
-                    "locales": {
-                        "en": {
-                            "title": "Korean",
-                            "info": "Basic understanding of Korean; learning and improving.",
-                            "tags": ["Basic"]
-                        },
-                        "es": {
-                            "title": "Coreano",
-                            "info": "Comprensión básica del coreano; aprendiendo y mejorando.",
-                            "tags": ["Básico"]
-                        },
-                        "fr": {
-                            "title": "Coréen",
-                            "info": "Compréhension de base du coréen; en apprentissage et amélioration.",
-                            "tags": ["Basique"]
-                        },
-                        "ko": {
-                            "title": "한국어",
-                            "info": "기초적인 한국어 이해; 배우는 중이며 향상 중.",
-                            "tags": ["기초"]
                         }
                     }
                 }

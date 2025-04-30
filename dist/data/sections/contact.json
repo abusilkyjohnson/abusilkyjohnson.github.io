@@ -5,19 +5,16 @@
             "title_long_prefix": "Don't hesitate to",
             "title_long": "**Contact** Me"
         },
-
         "es": {
             "title": "Contacto",
             "title_long_prefix": "No dudes en",
             "title_long": "**Contácta**me"
         },
-
         "fr": {
             "title": "Contact",
             "title_long_prefix": "N'hésitez pas à",
             "title_long": "Me **Contacter**"
         },
-
         "ko": {
             "title": "연락처",
             "title_long_prefix": "주저하지 말고",
@@ -55,9 +52,9 @@
 
             "items": [
                 {
-                    "value": "+1 (123) 456-7890",
+                    "value": "+1 (646) 715-5239",
                     "links": [
-                        {"href": "tel:11234567890"}
+                        {"href": "tel:16467155239"}
                     ],
                     "icon": {
                         "img": null,
@@ -73,9 +70,9 @@
                 },
 
                 {
-                    "value": "mark.choi@email.com",
+                    "value": "abubakarmohammed41@gmail.com",
                     "links": [
-                        {"href": "mailto:mark.choi@email.com"}
+                        {"href": "mailto:abubakarmohammed41@gmail.com"}
                     ],
                     "icon": {
                         "img": null,
@@ -89,9 +86,9 @@
                 },
 
                 {
-                    "value": "@markchoi",
+                    "value": "@Sadiq",
                     "links": [
-                        {"href": "https://linkedin.com"}
+                        {"href": "https://www.linkedin.com/in/abubakar-mohammed-33a044180/"}
                     ],
                     "icon": {
                         "img": null,
@@ -101,52 +98,8 @@
                     "locales": {
                         "en": {"title": "Linkedin"}
                     }
-                },
-
-                {
-                    "value": "Mark Choi",
-                    "links": [
-                        {"href": "https://facebook.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-facebook",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"title": "Facebook"}
-                    }
-                },
-
-                {
-                    "value": "@markchoi",
-                    "links": [
-                        {"href": "https://instagram.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-instagram",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"title": "Instagram"}
-                    }
-                },
-
-                {
-                    "value": "@markchoi",
-                    "links": [
-                        {"href": "https://tiktok.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-tiktok",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"title": "TikTok"}
-                    }
                 }
+
             ]
         }
     ]
