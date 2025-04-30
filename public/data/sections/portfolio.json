@@ -66,18 +66,17 @@
                 {
                     "categoryId": "utilities",
                     "icon": {
-                        "img": "images/pictures/project-logo-3.png",
+                        "img": "public/images/pictures/female_age_icon.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
 
                     "links": [
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com"},
-                        {"faIcon": "fa-brands fa-npm", "href": "https://npm.com"}
+
                     ],
 
                     "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=32XsfeIX_rM",
+                        "youtubeVideo": null,
                         "screenshots": {
                             "aspectRatio": null,
                             "images": []
@@ -86,9 +85,9 @@
 
                     "locales": {
                         "en": {
-                            "title": "BrainPulse",
-                            "text": "A <b>RESTful API</b> backend built with <b>Node.js</b>, designed for high-performance data processing and real-time event handling.",
-                            "tags": ["API", "REST", "Backend"]
+                            "title": "Age Detector",
+                            "text": "A computer vision project that predicts human age from facial images using <b>deep learning</b> and <b>CNN-based models</b>. Built with <b>OpenCV</b> and <b>TensorFlow/Keras</b>, the system detects faces and estimates age with real-time visual output for applications in personalization and analytics.",
+                            "tags": ["Deep Learning", "Computer Vision", "TensorFlow"]
                         },
                         "es": {
                             "title": "BrainPulse",
@@ -111,35 +110,33 @@
                 {
                     "categoryId": "apps",
                     "icon": {
-                        "img": "images/pictures/project-logo-7.png",
+                        "img": "public/images/pictures/playingcard.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
 
                     "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/abusilkyjohnson/BlackJack-Game"}
                     ],
 
                     "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=TfgBHC5gvTI",
+                        "youtubeVideo": "public/videos/video1623032928.mp4",
                         "screenshots": {
                             "aspectRatio": "9:16",
                             "images": [
-                                "images/pictures/project-screenshot-1.webp",
-                                "images/pictures/project-screenshot-2.webp",
-                                "images/pictures/project-screenshot-3.webp",
-                                "images/pictures/project-screenshot-4.webp",
-                                "images/pictures/project-screenshot-5.webp"
+                                "public/images/pictures/Screenshot 2025-04-28 023553.png",
+                                "public/images/pictures/Screenshot 2025-04-28 023606.png",
+                                "public/images/pictures/Screenshot 2025-04-28 023619.png",
+                                "public/images/pictures/Screenshot 2025-04-28 023634.png"
                             ]
                         }
                     },
 
                     "locales": {
                         "en": {
-                            "title": "MailM8",
-                            "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
+                            "title": "Blackjack",
+                            "text": "A console-based Blackjack game built with <b>C#</b>, using <b>object-oriented programming</b> principles like inheritance, polymorphism, and method overriding to simulate real Blackjack gameplay with player and dealer logic.",
+                            "tags": [ ]
                         },
                         "es": {
                             "title": "MailM8",
@@ -162,14 +159,13 @@
                 {
                     "categoryId": "apps",
                     "icon": {
-                        "img": "images/pictures/project-logo-6.png",
+                        "img": "public/images/pictures/calculatoricon.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
 
                     "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
+
                     ],
 
                     "media": {
@@ -177,18 +173,15 @@
                         "screenshots": {
                             "aspectRatio": "16:9",
                             "images": [
-                                "images/pictures/project-screenshot-6.png",
-                                "images/pictures/project-screenshot-7.png",
-                                "images/pictures/project-screenshot-8.png"
                             ]
                         }
                     },
 
                     "locales": {
                         "en": {
-                            "title": "Stackers",
+                            "title": "Calculator Abu",
                             "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
-                            "tags": ["React", "Organization", "Notes"]
+                            "tags": []
                         },
                         "es": {
                             "title": "Stackers",
@@ -211,17 +204,16 @@
                 {
                     "categoryId": "websites",
                     "icon": {
-                        "img": "images/pictures/project-logo-1.png",
+                        "img": "public/images/pictures/circlehomeiconwhiteblue.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
 
                     "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://cash.com"}
                     ],
 
                     "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=MQe_MoJ7Iww",
+                        "youtubeVideo": null ,
                         "screenshots": {
                             "aspectRatio": null,
                             "images": []
@@ -230,9 +222,9 @@
 
                     "locales": {
                         "en": {
-                            "title": "SmartCash",
-                            "text": "A finance website built using <b>Next.js</b>, allowing users to <b>track budgets</b> and manage their money with interactive charts and insights.",
-                            "tags": ["Next.js", "Finance", "Money"]
+                            "title": "HomeFront",
+                            "text": "Homefront is a task management and property tracking application built with <b>JavaScript</b> and <b>React</b> to streamline workflows for real estate operations. It features intuitive UI elements for task creation, scheduling, and client management, and utilizes <b>custom algorithms</b> to sort, rank, and highlight property profitability.",
+                            "tags": ["React", "Full-Stack Development", "MongoDB"]
                         },
                         "es": {
                             "title": "SmartCash",
@@ -253,9 +245,9 @@
                 },
 
                 {
-                    "categoryId": "apps",
+                    "categoryId": "utilities",
                     "icon": {
-                        "img": "images/pictures/project-logo-2.png",
+                        "img": "public/images/pictures/winegradeicon.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -275,9 +267,9 @@
 
                     "locales": {
                         "en": {
-                            "title": "Snappy",
-                            "text": "A powerful photography app designed with <b>Swift</b> for iOS and Android, featuring <b>advanced camera controls</b>, editing tools, and AI-powered filters for quick photo enhancements.",
-                            "tags": ["Swift", "Photography", "Camera"]
+                            "title": "Wine Quality Modeling: Linear & KNN Approaches",
+                            "text": "A machine learning project built with <b>Python</b> to predict wine quality using <b>linear regression</b> and <b>K-Nearest Neighbors</b>. Includes feature selection with <b>SelectKBest</b>, evaluation using <b>r² and confusion matrices</b>, and visual diagnostics with <b>Matplotlib</b> and <b>Seaborn</b>.",
+                            "tags": []
                         },
                         "es": {
                             "title": "Snappy",
@@ -298,15 +290,14 @@
                 },
 
                 {
-                    "categoryId": "websites",
+                    "categoryId": "utilities",
                     "icon": {
-                        "img": "images/pictures/project-logo-5.png",
+                        "img": "public/images/pictures/bag_of_words_icon.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
 
                     "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://sweetscoops.com"}
                     ],
 
                     "media": {
@@ -319,13 +310,13 @@
 
                     "locales": {
                         "en": {
-                            "title": "Sweet Scoops",
-                            "text": "A recipe website built with <b>WordPress</b> and WooCommerce, featuring a rich collection of <b>dessert recipes</b> and an integrated e-commerce platform.",
-                            "tags": ["WooCommerce", "Food", "Desserts"]
+                            "title": "NLP Analogy Finder",
+                            "text": "A Python NLP mini-project using <b>spaCy</b> and <b>cosine similarity</b> to explore word vector relationships through analogy-style queries like 'king - man + woman'.",
+                            "tags": ["NLP", "Text Processing", "spaCy"]
                         },
                         "es": {
                             "title": "Sweet Scoops",
-                            "text": "Un sitio web de recetas construido con <b>WordPress</b> y WooCommerce, con una rica colección de <b>recetas de postres</b> y una plataforma de comercio electrónico integrada.",
+                            "text": "A Python NLP mini-project using <b>spaCy</b> and <b>cosine similarity</b> to explore word vector relationships through analogy-style queries like 'king - man + woman'.",
                             "tags": ["WooCommerce", "Comida", "Postres"]
                         },
                         "fr": {
@@ -342,51 +333,7 @@
                 },
 
                 {
-                    "categoryId": "websites",
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-guitar",
-                        "faColors": {"bg": "#111", "fill": "#EEE"}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://rockverse.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "RockVerse",
-                            "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>.",
-                            "tags": ["Django", "Music", "Rock"]
-                        },
-                        "es": {
-                            "title": "RockVerse",
-                            "text": "Un sitio web dinámico de música y entretenimiento desarrollado con <b>Django</b>, que muestra noticias de música rock, eventos y <b>contenido en streaming</b>.",
-                            "tags": ["Django", "Música", "Rock"]
-                        },
-                        "fr": {
-                            "title": "RockVerse",
-                            "text": "Un site web de musique et de divertissement dynamique développé avec <b>Django</b>, mettant en avant des nouvelles, événements et <b>contenu en streaming</b> sur le rock.",
-                            "tags": ["Django", "Musique", "Rock"]
-                        },
-                        "ko": {
-                            "title": "RockVerse",
-                            "text": "<b>Django</b>로 개발된 동적인 음악 및 엔터테인먼트 웹사이트로, 록 음악 뉴스, 이벤트 및 <b>스트리밍 콘텐츠</b>를 제공합니다.",
-                            "tags": ["Django", "음악", "록"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "utilities",
+                    "categoryId": "apps",
                     "icon": {
                         "img": "images/pictures/project-logo-4.png",
                         "fa": "",
@@ -397,7 +344,7 @@
                     ],
 
                     "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0",
+                        "youtubeVideo": null,
                         "screenshots": {
                             "aspectRatio": null,
                             "images": []
@@ -406,8 +353,8 @@
 
                     "locales": {
                         "en": {
-                            "title": "Soccer Analytics",
-                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
+                            "title": "Ref Swapper",
+                            "text": "Developed an end-to-end Android app that predicts Premier League match outcomes using machine learning. Integrated <b>TensorFlow</b> and <b>Flask</b> for AI inference, used <b>REST APIs</b> for dynamic data flow, and implemented <b>RecyclerViews</b> with <b>parcelable navigation</b> to display match stats, historical data, and team insights.",
                             "tags": ["AI", "Prediction", "Soccer"]
                         },
                         "es": {
@@ -424,52 +371,6 @@
                             "title": "Soccer Analytics",
                             "text": "<b>Python</b> 및 <b>TensorFlow</b>로 구축된 AI 기반 스포츠 분석 플랫폼으로, 축구에 대한 <b>예측</b> 및 팀 관리 도구를 제공합니다.",
                             "tags": ["AI", "예측", "축구"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "",
-                        "fa": "fa-solid fa-truck-fast",
-                        "faColors": {"bg": "#007396", "fill": "#EEE"}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"},
-                        {"faIcon": "fa-brands fa-windows", "href": "https://windows.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "QuickDrop",
-                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
-                        },
-                        "es": {
-                            "title": "QuickDrop",
-                            "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
-                            "tags": ["React Native", "Entrega", "Seguimiento"]
-                        },
-                        "fr": {
-                            "title": "QuickDrop",
-                            "text": "Une application de livraison multiplateforme construite avec <b>React Native</b> et un backend <b>Node.js</b>, avec <b>suivi en temps réel</b> et intégration fluide sur plusieurs plateformes.",
-                            "tags": ["React Native", "Livraison", "Suivi"]
-                        },
-                        "ko": {
-                            "title": "QuickDrop",
-                            "text": "<b>React Native</b>와 <b>Node.js</b> 백엔드로 구축된 크로스플랫폼 배송 앱으로, <b>실시간 추적</b> 및 여러 플랫폼과의 원활한 통합을 제공합니다.",
-                            "tags": ["React Native", "배송", "실시간 추적"]
                         }
                     }
                 }

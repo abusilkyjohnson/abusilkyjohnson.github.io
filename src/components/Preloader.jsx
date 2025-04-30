@@ -70,14 +70,14 @@ function Preloader({children}) {
 
         scheduler.schedule(() => {
             _checkCompletion()
-        }, 2500, SCHEDULER_TAG)
+        }, 500, SCHEDULER_TAG)
     }
 
     const _checkCompletion = () => {
         let timePassed = 0
         scheduler.interval(() => {
             timePassed += 0.2
-            if(timePassed >= 5) {
+            if(timePassed >= 1) {
                 _hide()
                 return
             }

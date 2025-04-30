@@ -3,35 +3,49 @@ import React from 'react'
 import {Modal, ModalWindow, ModalHeader, ModalBody, ModalFooter} from "/src/components/modals/Modal.jsx"
 
 function YoutubeModal({displayingYoutubeVideo, hideYoutubeVideo}) {
-    let url = null
+    let url = null;
 
-    if(displayingYoutubeVideo) {
-        url = displayingYoutubeVideo.url
+    if (displayingYoutubeVideo) {
+        url = displayingYoutubeVideo.url;
     }
 
-    if(url && !url.includes('embed')) {
-        const urlObj = new URL(url)
-        const videoId = urlObj.searchParams.get('v')
-        url = `https://www.youtube.com/embed/${videoId}`
+    if (url && !url.includes('embed') && !url.endsWith('.mp4')) {
+        const urlObj = new URL(url);
+        const videoId = urlObj.searchParams.get('v');
+        url = `https://www.youtube.com/embed/${videoId}`;
     }
 
     const _close = () => {
-        hideYoutubeVideo()
+        hideYoutubeVideo();
     }
 
     return (
-        <Modal  id={`youtube-modal`}
-                visible={Boolean(displayingYoutubeVideo)}>
-
+        <Modal id={`youtube-modal`} visible={Boolean(displayingYoutubeVideo)}>
             {displayingYoutubeVideo && (
                 <ModalWindow>
-                    <ModalHeader title={displayingYoutubeVideo.title}
-                                 faIcon={`fa-brands fa-youtube`}
-                                 onClose={_close}/>
+                    <ModalHeader
+                        title={displayingYoutubeVideo.title}
+                        faIcon={`fa-brands fa-youtube`}
+                        onClose={_close}
+                    />
 
                     <ModalBody>
                         <div className={`youtube-iframe-wrapper`}>
-                            <iframe src={url} className={`youtube-iframe`}/>
+                            {url.endsWith('.mp4') ? (
+                                <video
+                                    src={url}
+                                    controls
+                                    style={{ width: '100%', borderRadius: '8px' }}
+                                />
+                            ) : (
+                                <iframe
+                                    src={url}
+                                    className={`youtube-iframe`}
+                                    frameBorder="0"
+                                    allow="autoplay; encrypted-media"
+                                    allowFullScreen
+                                />
+                            )}
                         </div>
                     </ModalBody>
 
@@ -39,7 +53,7 @@ function YoutubeModal({displayingYoutubeVideo, hideYoutubeVideo}) {
                 </ModalWindow>
             )}
         </Modal>
-    )
+    );
 }
 
-export default YoutubeModal
+export default YoutubeModal;
