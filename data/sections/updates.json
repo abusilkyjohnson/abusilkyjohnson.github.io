@@ -39,7 +39,7 @@
             "items": [
                 {
                     "icon": {
-                        "img": "public/images/pictures/workingatdesk.png",
+                        "img": "/images/pictures/workingatdesk.png",
                         "fa": null,
                         "faColors": null
                     },
@@ -115,7 +115,7 @@
 
                 {
                     "icon": {
-                        "img": "public/images/pictures/walkingpersonicon.png",
+                        "img": "/images/pictures/walkingpersonicon.png",
                         "fa": null,
                         "faColors": null
                     },

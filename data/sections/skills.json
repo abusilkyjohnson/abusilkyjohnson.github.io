@@ -404,7 +404,7 @@
 
                 {
                     "icon": {
-                        "img": "public/images/pictures/nigerianflag.png",
+                        "img": "/images/pictures/nigerianflag.png",
                         "fa": null,
                         "faColors": { "bg": null, "fill": null }
                     },
