@@ -1,0 +1,380 @@
+{
+    "locales": {
+        "en": {
+            "title": "Portfolio",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Portfolio**"
+        },
+
+        "es": {
+            "title": "Portafolio",
+            "title_long_prefix": "Explora",
+            "title_long": "Mi **Portafolio**"
+        },
+
+        "fr": {
+            "title": "Portfolio",
+            "title_long_prefix": "Découvrez",
+            "title_long": "Mon **Portfolio**"
+        },
+
+        "ko": {
+            "title": "포트폴리오",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**포트폴리오**입니다"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "portfolio",
+            "component": "ArticlePortfolio",
+            "config": {},
+            "locales": {},
+
+            "categories": [
+                {
+                    "id": "apps",
+                    "locales": {
+                        "en": {"singular": "App", "plural": "Apps"},
+                        "es": {"singular": "App", "plural": "Apps"},
+                        "fr": {"singular": "App", "plural": "Apps"},
+                        "ko": {"singular": "앱", "plural": "앱들"}
+                    }
+                },
+                {
+                    "id": "websites",
+                    "locales": {
+                        "en": {"singular": "Website", "plural": "Web"},
+                        "es": {"singular": "Sitio web", "plural": "Web"},
+                        "fr": {"singular": "Site web", "plural": "Web"},
+                        "ko": {"singular": "웹사이트", "plural": "웹"}
+                    }
+                },
+                {
+                    "id": "utilities",
+                    "locales": {
+                        "en": {"singular": "Utility", "plural": "Utilities"},
+                        "es": {"singular": "Utilidad", "plural": "Utilidades"},
+                        "fr": {"singular": "Utilitaire", "plural": "Utilitaires"},
+                        "ko": {"singular": "유틸리티", "plural": "유틸리티들"}
+                    }
+                }
+            ],
+
+            "items": [
+                {
+                    "categoryId": "utilities",
+                    "icon": {
+                        "img": "public/images/pictures/female_age_icon.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Age Detector",
+                            "text": "A computer vision project that predicts human age from facial images using <b>deep learning</b> and <b>CNN-based models</b>. Built with <b>OpenCV</b> and <b>TensorFlow/Keras</b>, the system detects faces and estimates age with real-time visual output for applications in personalization and analytics.",
+                            "tags": ["Deep Learning", "Computer Vision", "TensorFlow"]
+                        },
+                        "es": {
+                            "title": "BrainPulse",
+                            "text": "Una <b>API RESTful</b> construida con <b>Node.js</b>, diseñada para el procesamiento de datos de alto rendimiento y la gestión de eventos en tiempo real.",
+                            "tags": ["API", "REST", "Backend"]
+                        },
+                        "fr": {
+                            "title": "BrainPulse",
+                            "text": "Un backend <b>API RESTful</b> construit avec <b>Node.js</b>, conçu pour le traitement de données haute performance et la gestion d'événements en temps réel.",
+                            "tags": ["API", "REST", "Backend"]
+                        },
+                        "ko": {
+                            "title": "BrainPulse",
+                            "text": "<b>Node.js</b>로 구축된 <b>RESTful API</b> 백엔드로, 고성능 데이터 처리 및 실시간 이벤트 처리용으로 설계되었습니다.",
+                            "tags": ["API", "REST", "Backend"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "public/images/pictures/playingcard.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/abusilkyjohnson/BlackJack-Game"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "public/videos/video1623032928.mp4",
+                        "screenshots": {
+                            "aspectRatio": "9:16",
+                            "images": [
+                                "public/images/pictures/Screenshot 2025-04-28 023553.png",
+                                "public/images/pictures/Screenshot 2025-04-28 023606.png",
+                                "public/images/pictures/Screenshot 2025-04-28 023619.png",
+                                "public/images/pictures/Screenshot 2025-04-28 023634.png"
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Blackjack",
+                            "text": "A console-based Blackjack game built with <b>C#</b>, using <b>object-oriented programming</b> principles like inheritance, polymorphism, and method overriding to simulate real Blackjack gameplay with player and dealer logic.",
+                            "tags": [ ]
+                        },
+                        "es": {
+                            "title": "MailM8",
+                            "text": "Un cliente de correo electrónico multiplataforma construido con <b>Flutter</b>, que ofrece comunicación eficiente y una interfaz intuitiva para la <b>gestión de correos electrónicos</b>.",
+                            "tags": ["Flutter", "Correo", "Comunicación"]
+                        },
+                        "fr": {
+                            "title": "MailM8",
+                            "text": "Un client de messagerie multiplateforme construit avec <b>Flutter</b>, offrant une communication efficace et une interface intuitive pour <b>gérer les e-mails</b>.",
+                            "tags": ["Flutter", "E-mail", "Communication"]
+                        },
+                        "ko": {
+                            "title": "MailM8",
+                            "text": "<b>Flutter</b>로 구축된 크로스플랫폼 이메일 클라이언트로, 이메일 <b>관리</b>를 위한 직관적인 UI를 통해 효율적인 소통을 제공합니다.",
+                            "tags": ["Flutter", "이메일", "소통"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "public/images/pictures/calculatoricon.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Calculator Abu",
+                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
+                            "tags": []
+                        },
+                        "es": {
+                            "title": "Stackers",
+                            "text": "Una app de productividad con todas las funciones, desarrollada con <b>React Native</b>, que permite a los usuarios organizar tareas, notas y proyectos en varios dispositivos. Ofrece <b>sincronización en la nube</b>, interfaz intuitiva y características de colaboración.",
+                            "tags": ["React", "Organización", "Notas"]
+                        },
+                        "fr": {
+                            "title": "Stackers",
+                            "text": "Une application de productivité complète développée avec <b>React Native</b>, permettant aux utilisateurs d'organiser tâches, notes et projets sur plusieurs appareils. Elle offre <b>synchronisation cloud</b>, interface intuitive et fonctionnalités de collaboration.",
+                            "tags": ["React", "Organisation", "Notes"]
+                        },
+                        "ko": {
+                            "title": "Stackers",
+                            "text": "<b>React Native</b>로 개발된 기능이 풍부한 생산성 앱으로, 사용자가 여러 기기에서 작업, 메모, 프로젝트를 <b>클라우드 동기화</b>와 직관적인 UI로 관리할 수 있습니다.",
+                            "tags": ["React", "조직", "메모"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "public/images/pictures/circlehomeiconwhiteblue.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null ,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "HomeFront",
+                            "text": "Homefront is a task management and property tracking application built with <b>JavaScript</b> and <b>React</b> to streamline workflows for real estate operations. It features intuitive UI elements for task creation, scheduling, and client management, and utilizes <b>custom algorithms</b> to sort, rank, and highlight property profitability.",
+                            "tags": ["React", "Full-Stack Development", "MongoDB"]
+                        },
+                        "es": {
+                            "title": "SmartCash",
+                            "text": "Un sitio web financiero construido con <b>Next.js</b>, que permite a los usuarios <b>seguir presupuestos</b> y gestionar su dinero con gráficos interactivos e ideas.",
+                            "tags": ["Next.js", "Finanzas", "Dinero"]
+                        },
+                        "fr": {
+                            "title": "SmartCash",
+                            "text": "Un site web financier construit avec <b>Next.js</b>, permettant aux utilisateurs de <b>suivre les budgets</b> et de gérer leur argent avec des graphiques interactifs et des analyses.",
+                            "tags": ["Next.js", "Finance", "Argent"]
+                        },
+                        "ko": {
+                            "title": "SmartCash",
+                            "text": "<b>Next.js</b>로 구축된 금융 웹사이트로, 사용자가 <b>예산을 추적</b>하고 상호작용하는 차트와 통찰력으로 자금을 관리할 수 있습니다.",
+                            "tags": ["Next.js", "금융", "돈"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "utilities",
+                    "icon": {
+                        "img": "public/images/pictures/winegradeicon.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
+                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Wine Quality Modeling: Linear & KNN Approaches",
+                            "text": "A machine learning project built with <b>Python</b> to predict wine quality using <b>linear regression</b> and <b>K-Nearest Neighbors</b>. Includes feature selection with <b>SelectKBest</b>, evaluation using <b>r² and confusion matrices</b>, and visual diagnostics with <b>Matplotlib</b> and <b>Seaborn</b>.",
+                            "tags": []
+                        },
+                        "es": {
+                            "title": "Snappy",
+                            "text": "Una app de fotografía potente diseñada con <b>Swift</b> para iOS y Android, con <b>controles avanzados de cámara</b>, herramientas de edición y filtros potenciados por IA para mejoras rápidas de fotos.",
+                            "tags": ["Swift", "Fotografía", "Cámara"]
+                        },
+                        "fr": {
+                            "title": "Snappy",
+                            "text": "Une application de photographie puissante conçue avec <b>Swift</b> pour iOS et Android, avec des <b>contrôles avancés de la caméra</b>, des outils d'édition et des filtres IA pour des améliorations rapides des photos.",
+                            "tags": ["Swift", "Photographie", "Caméra"]
+                        },
+                        "ko": {
+                            "title": "Snappy",
+                            "text": "<b>Swift</b>로 설계된 강력한 사진 앱으로, iOS 및 Android에서 <b>고급 카메라 제어</b>, 편집 도구, AI 기반 필터를 통해 빠르게 사진을 보정할 수 있습니다.",
+                            "tags": ["Swift", "사진", "카메라"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "utilities",
+                    "icon": {
+                        "img": "public/images/pictures/bag_of_words_icon.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "NLP Analogy Finder",
+                            "text": "A Python NLP mini-project using <b>spaCy</b> and <b>cosine similarity</b> to explore word vector relationships through analogy-style queries like 'king - man + woman'.",
+                            "tags": ["NLP", "Text Processing", "spaCy"]
+                        },
+                        "es": {
+                            "title": "Sweet Scoops",
+                            "text": "A Python NLP mini-project using <b>spaCy</b> and <b>cosine similarity</b> to explore word vector relationships through analogy-style queries like 'king - man + woman'.",
+                            "tags": ["WooCommerce", "Comida", "Postres"]
+                        },
+                        "fr": {
+                            "title": "Sweet Scoops",
+                            "text": "Un site de recettes construit avec <b>WordPress</b> et WooCommerce, présentant une riche collection de <b>recettes de desserts</b> et une plateforme de commerce électronique intégrée.",
+                            "tags": ["WooCommerce", "Cuisine", "Desserts"]
+                        },
+                        "ko": {
+                            "title": "Sweet Scoops",
+                            "text": "<b>WordPress</b>와 WooCommerce로 구축된 레시피 웹사이트로, 풍부한 <b>디저트 레시피</b> 모음과 통합된 전자상거래 플랫폼을 제공합니다.",
+                            "tags": ["WooCommerce", "음식", "디저트"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "images/pictures/project-logo-4.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Ref Swapper",
+                            "text": "Developed an end-to-end Android app that predicts Premier League match outcomes using machine learning. Integrated <b>TensorFlow</b> and <b>Flask</b> for AI inference, used <b>REST APIs</b> for dynamic data flow, and implemented <b>RecyclerViews</b> with <b>parcelable navigation</b> to display match stats, historical data, and team insights.",
+                            "tags": ["AI", "Prediction", "Soccer"]
+                        },
+                        "es": {
+                            "title": "Soccer Analytics",
+                            "text": "Una plataforma de análisis deportivo impulsada por IA construida con <b>Python</b> y <b>TensorFlow</b>, que ofrece <b>predicciones</b> detalladas de fútbol y herramientas de gestión de equipos.",
+                            "tags": ["IA", "Predicción", "Fútbol"]
+                        },
+                        "fr": {
+                            "title": "Soccer Analytics",
+                            "text": "Une plateforme d'analytique sportive alimentée par IA construite avec <b>Python</b> et <b>TensorFlow</b>, offrant des <b>prédictions</b> détaillées pour le football et des outils de gestion d'équipe.",
+                            "tags": ["IA", "Prédiction", "Football"]
+                        },
+                        "ko": {
+                            "title": "Soccer Analytics",
+                            "text": "<b>Python</b> 및 <b>TensorFlow</b>로 구축된 AI 기반 스포츠 분석 플랫폼으로, 축구에 대한 <b>예측</b> 및 팀 관리 도구를 제공합니다.",
+                            "tags": ["AI", "예측", "축구"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
