@@ -136,7 +136,7 @@
                         "en": {
                             "title": "Blackjack",
                             "text": "A console-based Blackjack game built with <b>C#</b>, using <b>object-oriented programming</b> principles like inheritance, polymorphism, and method overriding to simulate real Blackjack gameplay with player and dealer logic.",
-                            "tags": [ ]
+                            "tags": [ "Encapsulation","Console Application","Inheritance" ]
                         },
                         "es": {
                             "title": "MailM8",
@@ -179,9 +179,9 @@
 
                     "locales": {
                         "en": {
-                            "title": "Calculator Abu",
-                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
-                            "tags": []
+                            "title": "C++ Calculator App Featuring Scientific Operations",
+                            "text": "A custom-built desktop calculator application developed in <b>C++</b> using <b>wxWidgets</b>. Implements a modular UI with button factories, supports basic and scientific operations (cos, sin, tan), and applies the <b>Singleton design pattern</b> for processing logic. Designed for clear event handling, real-time expression parsing, and dynamic user interaction.",
+                            "tags": ["Event-Driven Programming","C++","Singleton Pattern"]
                         },
                         "es": {
                             "title": "Stackers",
@@ -253,8 +253,6 @@
                     },
 
                     "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
                     ],
 
                     "media": {
@@ -269,7 +267,7 @@
                         "en": {
                             "title": "Wine Quality Modeling: Linear & KNN Approaches",
                             "text": "A machine learning project built with <b>Python</b> to predict wine quality using <b>linear regression</b> and <b>K-Nearest Neighbors</b>. Includes feature selection with <b>SelectKBest</b>, evaluation using <b>r² and confusion matrices</b>, and visual diagnostics with <b>Matplotlib</b> and <b>Seaborn</b>.",
-                            "tags": []
+                            "tags": ["Data Visualization","Machine Learning","Feature Selection"]
                         },
                         "es": {
                             "title": "Snappy",
