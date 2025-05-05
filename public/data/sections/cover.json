@@ -95,7 +95,7 @@
             "items": [
                 {
                     "icon": {
-                        "img": "public/images/pictures/pythonlogo.png",
+                        "img": "/images/pictures/pythonlogo.png",
                         "fa": null,
                         "faColors": {"bg": null, "fill": null}
                     },
