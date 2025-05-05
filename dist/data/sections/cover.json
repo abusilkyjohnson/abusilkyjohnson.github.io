@@ -95,7 +95,7 @@
             "items": [
                 {
                     "icon": {
-                        "img": "images/svg/logo.svg",
+                        "img": "/images/pictures/pythonlogo.png",
                         "fa": null,
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -122,36 +122,6 @@
 
             "items": [
                 {
-                    "value": "Danica Lima",
-                    "links": [
-                        {"href": "https://linkedin.com"}
-                    ],
-                    "icon": {
-                        "img": "images/pictures/person-1.png",
-                        "fa": "fa-solid fa-user",
-                        "faColors": null
-                    },
-                    "locales": {
-                        "en": {
-                            "info": "Assistant Director of Admissions <b>Full Sail</b>",
-                            "text": "Sadiq displays tremendous work ethic and works with a competitive mindset to achieve company, department goals and student satisfaction."
-                        },
-                        "es": {
-                            "info": "CEO en <b>SalesForce</b>",
-                            "text": "Trabajar con Mark fue una experiencia transformadora. Sus habilidades de programación y dedicación no solo mejoraron nuestro proyecto, sino que también inspiraron a todo el equipo."
-                        },
-                        "fr": {
-                            "info": "PDG de <b>SalesForce</b>",
-                            "text": "Travailler avec Mark a été une expérience transformative. Ses compétences en programmation et son dévouement ont non seulement amélioré notre projet, mais ont également inspiré toute l'équipe."
-                        },
-                        "ko": {
-                            "info": "세일즈포스  CEO",
-                            "text": "Mark와의 협업은 변화를 가져오는 경험이었습니다. 그의 프로그래밍 기술과 헌신은 우리 프로젝트를 개선할 뿐만 아니라 팀 전체에 영감을 주었습니다."
-                        }
-                    }
-                },
-
-                {
                     "value": "Jerry Decembre",
                     "links": [
                         {"href": "https://github.com"}
@@ -177,6 +147,36 @@
                         "ko": {
                             "info": "<b>GitHub</b> 수석 개발자",
                             "text": "우리 팀에 Mark가 있다는 것은 귀중한 자산이었습니다. 그의 깊은 프로그래밍 통찰력과 멘토링은 우리의 프로젝트를 높이고 모든 도전에 자신감과 창의성으로 대응할 수 있게 해주었습니다."
+                        }
+                    }
+                },
+
+                {
+                    "value": "Danica Lima",
+                    "links": [
+                        {"href": "https://linkedin.com"}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/person-1.png",
+                        "fa": "fa-solid fa-user",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Assistant Director of Admissions <b>Full Sail</b>",
+                            "text": "Sadiq displays tremendous work ethic and works with a competitive mindset to achieve company, department goals and student satisfaction."
+                        },
+                        "es": {
+                            "info": "CEO en <b>SalesForce</b>",
+                            "text": "Trabajar con Mark fue una experiencia transformadora. Sus habilidades de programación y dedicación no solo mejoraron nuestro proyecto, sino que también inspiraron a todo el equipo."
+                        },
+                        "fr": {
+                            "info": "PDG de <b>SalesForce</b>",
+                            "text": "Travailler avec Mark a été une expérience transformative. Ses compétences en programmation et son dévouement ont non seulement amélioré notre projet, mais ont également inspiré toute l'équipe."
+                        },
+                        "ko": {
+                            "info": "세일즈포스  CEO",
+                            "text": "Mark와의 협업은 변화를 가져오는 경험이었습니다. 그의 프로그래밍 기술과 헌신은 우리 프로젝트를 개선할 뿐만 아니라 팀 전체에 영감을 주었습니다."
                         }
                     }
                 },
