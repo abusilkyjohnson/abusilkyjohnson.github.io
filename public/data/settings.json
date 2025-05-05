@@ -11,9 +11,9 @@
 
     "profile": {
         "name": "Abubakar Mohammed",
-        "stylizedName": "<strong>Abubakar Sadiq Mohammed</strong>",
-        "logoUrl": "images/svg/logo.svg",
-        "profilePictureUrl": "images/pictures/avatar.jpg",
+        "stylizedName": "<small><strong>Abubakar S Mohammed</strong></small>",
+        "logoUrl": "public/images/pictures/pythonlogo.png",
+        "profilePictureUrl": "images/pictures/headshotoffblue.png",
 
         "locales": {
             "en": {"role": "AI & App Developer"},
