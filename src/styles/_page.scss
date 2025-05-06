@@ -21,6 +21,7 @@ body.body-with-image {
     background-size: cover;
     background-position: center;
     background-color: var(--theme-bg-color)!important;
+
 }
 
 body.body-no-scroll {
@@ -41,4 +42,30 @@ body.body-no-scroll {
 ::selection {
     color: var(--theme-dark);
     background: var(--theme-highlight-2);
+}
+
+/* === Mobile Background Patch for Light Theme === */
+
+@media (max-width: 768px) {
+    body.body-with-image {
+        background-image: none !important;
+        background-color: #FAF9F6 !important;
+    }
+
+    .section,
+    .hero,
+    .main,
+    .intro,
+    .page,
+    .content,
+    .article {
+        background-color: #FAF9F6 !important;
+    }
+}
+
+/* Optional: override background for any box or wrapper */
+.box,
+.border-wrap,
+.article {
+    background-color: var(--theme-section-background, #FAF9F6) !important;
 }
