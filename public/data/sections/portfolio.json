@@ -64,6 +64,52 @@
 
             "items": [
                 {
+                    "categoryId": "utilities",
+                    "icon": {
+                        "img": "/images/pictures/day_pilot_logo_transparent.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/abusilkyjohnson/DayPilotAI"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "9:16",
+                            "images": [
+
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "DayPilotAI",
+                            "text": "Built using <b>TensorFlow</b> and <b>Flask</b>, this modular AI engine powers natural language understanding in productivity applications. It receives speech-to-text input, classifies intent with a pre-trained model, and returns structured task labels such as reminders or appointments. Designed as a reusable backend service, it integrates easily into any app needing voice-activated task automation.",
+                            "tags": [ "NLP","Zero-shot Intent Classification","Modular Architecture" ]
+                        },
+                        "es": {
+                            "title": "MailM8",
+                            "text": "Un cliente de correo electrónico multiplataforma construido con <b>Flutter</b>, que ofrece comunicación eficiente y una interfaz intuitiva para la <b>gestión de correos electrónicos</b>.",
+                            "tags": ["Flutter", "Correo", "Comunicación"]
+                        },
+                        "fr": {
+                            "title": "MailM8",
+                            "text": "Un client de messagerie multiplateforme construit avec <b>Flutter</b>, offrant une communication efficace et une interface intuitive pour <b>gérer les e-mails</b>.",
+                            "tags": ["Flutter", "E-mail", "Communication"]
+                        },
+                        "ko": {
+                            "title": "MailM8",
+                            "text": "<b>Flutter</b>로 구축된 크로스플랫폼 이메일 클라이언트로, 이메일 <b>관리</b>를 위한 직관적인 UI를 통해 효율적인 소통을 제공합니다.",
+                            "tags": ["Flutter", "이메일", "소통"]
+                        }
+                    }
+                },
+
+                {
                     "categoryId": "apps",
                     "icon": {
                         "img": "/images/pictures/playingcard.png",
